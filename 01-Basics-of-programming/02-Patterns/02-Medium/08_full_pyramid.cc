@@ -11,14 +11,14 @@ int main(){
         for(int j =0 ; j < ((2*n)-1); j++){
             // cout << "*";
            if(j < n - i - 1){
-            cout << " ";
+            cout << "  ";
            }
            else if(k < 2 * i + 1 ){
-            cout << "*";
+            cout << "* ";
             k++ ;
            }
            else{
-            cout << " " ;
+            cout << "  " ;
            }
         }
         cout << endl;
