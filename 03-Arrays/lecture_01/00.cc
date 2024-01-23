@@ -1,18 +1,18 @@
-#include <iostream>
-#include<limits.h>
-using namespace std;
+// #include <iostream>
+// #include<limits.h>
+// using namespace std;
 
-void printArray(int arr[] , int size){
-    for (int i = 0 ; i < size ; i++ ){
-        cout << arr[i] << " ";
-    }
-    cout << endl ;
-}
-void inc(int arr[] ,int size){
-    arr[0] = arr[0] +10;
+// void printArray(int arr[] , int size){
+//     for (int i = 0 ; i < size ; i++ ){
+//         cout << arr[i] << " ";
+//     }
+//     cout << endl ;
+// }
+// void inc(int arr[] ,int size){
+//     arr[0] = arr[0] +10;
 
-    printArray(arr , size);
-}
+//     printArray(arr , size);
+// }
 
 bool find(int arr[] , int size , int key){
     // linear searching 
@@ -24,11 +24,11 @@ bool find(int arr[] , int size , int key){
     return false;
 }
 
-int main() {
+// int main() {
 //   cout << "Hello world!" << endl;
-//   // int arr[53];
-//   // int n[4]={1,2,3,4} // normal array 
-//   // int no[3] = {1,2,3,4,5} // error - to much input 
+//   int arr[53];
+//   int n[4]={1,2,3,4} ;// normal array 
+// //   int no[3] = {1,2,3,4,5}; // error - to much input 
 //   int num[] = {1,2,3} ;  // dynamic array  
 //   cout << num[1] << endl ;
 
@@ -55,8 +55,8 @@ int main() {
 // cout << arr[i] ;
 // }
 
-// arrays and function 
-// take 5 element i/p in array & print their doubles 
+// // arrays and function 
+// // take 5 element i/p in array & print their doubles 
 // int arr[50];
 // int n ;
 // cout << "n";
@@ -93,7 +93,7 @@ int main() {
 
 // inc(arr ,size );
 // printArray(arr , size); // o/p - 15 , 6 
-// // in the arry functions - we our on the value pased by reference - on original value 
+// in the arry functions - we our on the value pased by reference - on original value 
 // cout << sizeof(arr) ;  // how much memory it occupied in the memory 
 
 // linear seach in the array 
@@ -184,26 +184,26 @@ int main() {
 
 // }
 
-// reverse of an array  
+// // reverse of an array  
 
-int arr[] = {1,2,3,4,5,6,7,8,9} ; // we want to print like - 1 9 2 8 3 7 4 6 5 
+// int arr[] = {1,2,3,4,5,6,7,8,9} ; // we want to print like - 1 9 2 8 3 7 4 6 5 
 
-int size =9 ;
+// int size =9 ;
 
-int start = 0;
-int end = size - 1 ;
+// int start = 0;
+// int end = size - 1 ;
 
-while(start <= end){
+// while(start <= end){
 
-    swap(arr[start] , arr[end]);
-    start ++ ;
-    end -- ;
-}
+//     swap(arr[start] , arr[end]);
+//     start ++ ;
+//     end -- ;
+// }
 
-// printing new values 
-for(int i=0  ; i< size ; i++){
-    cout << arr[i] << " " ;
-}
-return 0 ;
+// // printing new values 
+// for(int i=0  ; i< size ; i++){
+//     cout << arr[i] << " " ;
+// }
+// return 0 ;
 
-}
+// }
