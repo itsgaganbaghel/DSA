@@ -20,6 +20,12 @@ int main(){
         cin >> arr[i];
     }
 
+    for(auto i : arr){
+        cout << i << " ";
+    }
+    cout << endl ;
+
     int uniqueNumber = findUniqueNumber(arr);
+    cout << uniqueNumber ;
 
 }
